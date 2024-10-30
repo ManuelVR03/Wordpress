@@ -1,0 +1,33 @@
+{
+  "_index-CYu8q2MW.js": {
+    "file": "dist/index-CYu8q2MW.js",
+    "name": "index"
+  },
+  "js/p2tg-block-editor/index.ts": {
+    "file": "dist/p2tg-block-editor-D9PxOIH7.js",
+    "name": "p2tg-block-editor",
+    "src": "js/p2tg-block-editor/index.ts",
+    "isEntry": true,
+    "imports": [
+      "_index-CYu8q2MW.js"
+    ]
+  },
+  "js/p2tg-classic-editor/index.ts": {
+    "file": "dist/p2tg-classic-editor-c9idWbsy.js",
+    "name": "p2tg-classic-editor",
+    "src": "js/p2tg-classic-editor/index.ts",
+    "isEntry": true
+  },
+  "js/settings/index.ts": {
+    "file": "dist/settings-Yi745GKC.js",
+    "name": "settings",
+    "src": "js/settings/index.ts",
+    "isEntry": true,
+    "imports": [
+      "_index-CYu8q2MW.js"
+    ],
+    "css": [
+      "dist/settings-DxL8H8CT.css"
+    ]
+  }
+}
