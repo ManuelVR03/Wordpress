@@ -277,33 +277,27 @@ export default function TabGeneral() {
                         >
                             <div className="changelog-wrapper">
                                 <div className="changelog-title">
-                                    {__("Version: 5.0.5", "essential-blocks")}
+                                    {__("Version: 5.0.7", "essential-blocks")}
                                     <span className="changelog-date">
-                                        {__("22/10/2024", "essential-blocks")}
+                                        {__("01/11/2024", "essential-blocks")}
                                     </span>
                                 </div>
                                 <ul className="changelog-content">
                                     <li>
                                         {__(
-                                            "Fixed: Toggle Content & Advanced Tabs | Mismatched inner blocks data for click events",
+                                            "Fixed: Predefined CSS not loading properly",
                                             "essential-blocks"
                                         )}
                                     </li>
                                     <li>
                                         {__(
-                                            "Fixed: Advanced Tabs | Tab Titles data not saving",
+                                            "Fixed: Progress Bar | Style broken in frontend",
                                             "essential-blocks"
                                         )}
                                     </li>
                                     <li>
                                         {__(
-                                            "Improved: Post Grid | Sorting controls moved to the relevant controls panel",
-                                            "essential-blocks"
-                                        )}
-                                    </li>
-                                    <li>
-                                        {__(
-                                            "Minor bug fixes and improvements",
+                                            "Fixed: Feature List | Icon not showing in frontend",
                                             "essential-blocks"
                                         )}
                                     </li>

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-10-28 13:38:22+0000\n"
+"PO-Revision-Date: 2024-10-29 20:48:27+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,14 @@ msgstr ""
 "X-Generator: GlotPress/4.0.1\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release)\n"
+
+#: core/admin/admin-notices.php:416
+msgid "Use Site Mailer for improved email deliverability, detailed email logs, and an easy setup."
+msgstr "Usar el servicio de envío del sitio para mejorar la entrega de correos electrónicos, registros detallados de correos y fácil configuración."
+
+#: core/admin/admin-notices.php:415
+msgid "Ensure your form emails avoid the spam folder!"
+msgstr "¡Asegúrate de que los correos electrónicos de tus formularios eviten la carpeta de spam!"
 
 #: modules/checklist/steps/setup-header.php:72
 msgid "Add a header"
@@ -1132,11 +1140,11 @@ msgstr "Oferta de actualización"
 msgid "Discounted Upgrades Now!"
 msgstr "¡Oferta en las mejoras de plan!"
 
-#: core/admin/admin-notices.php:467
+#: core/admin/admin-notices.php:538
 msgid "Automatically compress and optimize images, resize larger files, or convert to WebP. Optimize images individually, in bulk, or on upload."
 msgstr "Comprime y optimiza imágenes automáticamente, redimensiona archivos grandes o conviértelos a WebP. Optimiza las imágenes individualmente, en bloque o al subirlas."
 
-#: core/admin/admin-notices.php:466
+#: core/admin/admin-notices.php:537
 msgid "Speed up your website with Image Optimizer by Elementor"
 msgstr "Acelera tu sitio web con Image Optimizer by Elementor"
 
@@ -1385,7 +1393,7 @@ msgstr "Efectos del ratón"
 msgid "Scrolling Effects"
 msgstr "Efectos de desplazamiento"
 
-#: core/admin/admin-notices.php:462 includes/controls/gallery.php:123
+#: core/admin/admin-notices.php:451 includes/controls/gallery.php:123
 #: includes/controls/media.php:272
 msgid "Install Plugin"
 msgstr "Instalar plugin"
@@ -1439,16 +1447,16 @@ msgstr "Consigue el widget Llamada a la acción y haz crecer tu caja de herramie
 msgid "Convert visitors into customers"
 msgstr "Convierte a los visitantes en clientes"
 
-#: includes/template-library/manager.php:456
+#: includes/template-library/manager.php:466
 msgid "You do not have permission to export this template."
 msgstr "No tienes permisos para exportar esta plantilla."
 
-#: includes/template-library/manager.php:372
-#: includes/template-library/manager.php:452
+#: includes/template-library/manager.php:382
+#: includes/template-library/manager.php:462
 msgid "You do not have permission to access this template."
 msgstr "No tienes permisos para acceder a esta plantilla."
 
-#: includes/template-library/manager.php:448
+#: includes/template-library/manager.php:458
 msgid "Invalid template type or template does not exist."
 msgstr "Tipo de plantilla no válido o la plantilla no existe."
 
@@ -1773,11 +1781,11 @@ msgstr "Tipo de fondo"
 msgid "Classic"
 msgstr "Clásico"
 
-#: core/admin/admin-notices.php:411
+#: core/admin/admin-notices.php:488
 msgid "Encountering issues after updating the version? Don’t worry - we’ve collected all the fixes for troubleshooting common issues. %1$sFind a solution%2$s"
 msgstr "¿Tienes problemas después de actualizar la versión? No te preocupes: hemos recopilado todas las soluciones para resolver los problemas más comunes. %1$sEncuentra una solución%2$s"
 
-#: core/admin/admin-notices.php:409
+#: core/admin/admin-notices.php:486
 msgid "The version was updated successfully!"
 msgstr "¡La versión se ha actualizado correctamente!"
 
@@ -2149,7 +2157,7 @@ msgstr "Tableta horizontal"
 msgid "Tablet Portrait"
 msgstr "Tableta vertical"
 
-#: core/admin/admin-notices.php:518 core/admin/admin.php:1013
+#: core/admin/admin-notices.php:589 core/admin/admin.php:1013
 msgid "Dismiss this notice."
 msgstr "Descartar este aviso."
 
@@ -2446,15 +2454,15 @@ msgstr "Rendimiento"
 msgid "There was a problem setting your site name."
 msgstr "Ha habido un problema al establecer el nombre del sitio"
 
-#: core/admin/admin-notices.php:366
+#: core/admin/admin-notices.php:367
 msgid "Try it out"
 msgstr "Pruébalo"
 
-#: core/admin/admin-notices.php:363
+#: core/admin/admin-notices.php:364
 msgid "With our experimental speed boosting features you can go faster than ever before. Look for the Performance label on our Experiments page and activate those experiments to improve your site loading speed."
 msgstr "Con nuestras funciones experimentales de mejora de la velocidad puedes ir más rápido que nunca. Busca la etiqueta Rendimiento en nuestra página de experimentos y activa esos experimentos para mejorar la velocidad de carga de tu sitio."
 
-#: core/admin/admin-notices.php:362
+#: core/admin/admin-notices.php:363
 msgid "Improve your site’s performance score."
 msgstr "Mejora la puntuación de rendimiento de tu sitio."
 
@@ -3237,15 +3245,15 @@ msgstr "Pantalla grande"
 msgid "Database update process is running in the background. Taking a while?"
 msgstr "El proceso de actualización de la base de datos se está ejecutando en segundo plano, ¿está tardando un poco?"
 
-#: core/admin/admin-notices.php:326
+#: core/admin/admin-notices.php:327
 msgid "With Elementor Pro, you can control user access and make sure no one messes up your design."
 msgstr "Con Elementor Pro, puedes controlar el acceso de los usuarios y asegurarte de que nadie arruina tu diseño."
 
-#: core/admin/admin-notices.php:325
+#: core/admin/admin-notices.php:326
 msgid "Managing a multi-user site?"
 msgstr "¿Gestionas un sitio multiusuario?"
 
-#: core/admin/admin-notices.php:236
+#: core/admin/admin-notices.php:237
 msgid "Love using Elementor?"
 msgstr "¿Te gusta usar Elementor?"
 
@@ -3286,13 +3294,13 @@ msgstr "Exportar un kit de plantillas"
 msgid "Design sites faster with a template kit that contains some or all components of a complete site, like templates, content & site settings.%1$sYou can import a kit and apply it to your site, or export the elements from this site to be used anywhere else. %2$s"
 msgstr "Diseña sitios más rápidamente con un conjunto de plantillas que contiene algunos o todos los componentes de un sitio completo, como plantillas, contenido y ajustes del sitio.%1$sPuedes importar un conjunto y aplicarlo a tu sitio o exportar los elementos de este sitio para usarlos en cualquier otro lugar. %2$s"
 
-#: app/modules/import-export/module.php:133 core/admin/admin-notices.php:371
-#: core/experiments/manager.php:344 core/experiments/manager.php:360
-#: core/experiments/manager.php:376 core/experiments/manager.php:405
-#: core/experiments/manager.php:631 includes/controls/url.php:78
-#: includes/elements/section.php:473 includes/settings/settings-page.php:404
-#: includes/widgets/common.php:924 includes/widgets/video.php:601
-#: modules/checklist/steps/step-base.php:101
+#: app/modules/import-export/module.php:133 core/admin/admin-notices.php:372
+#: core/admin/admin-notices.php:425 core/experiments/manager.php:344
+#: core/experiments/manager.php:360 core/experiments/manager.php:376
+#: core/experiments/manager.php:405 core/experiments/manager.php:631
+#: includes/controls/url.php:78 includes/elements/section.php:473
+#: includes/settings/settings-page.php:404 includes/widgets/common.php:924
+#: includes/widgets/video.php:601 modules/checklist/steps/step-base.php:101
 #: modules/editor-app-bar/module.php:52 modules/nested-elements/module.php:21
 #: modules/shapes/widgets/text-path.php:151 assets/js/app.js:8324
 #: assets/js/editor.js:27954
@@ -3695,7 +3703,7 @@ msgstr "Ajuste del objeto"
 msgid "Download"
 msgstr "Descargar"
 
-#: core/admin/admin-notices.php:220 includes/settings/settings-page.php:403
+#: core/admin/admin-notices.php:221 includes/settings/settings-page.php:403
 msgid "Become a super contributor by opting in to share non-sensitive plugin data and to receive periodic email updates from us."
 msgstr "Conviértete en un colaborador optando por compartir datos no sensibles del plugin y para recibir nuestras actualizaciones periódicas por correo electrónico."
 
@@ -4869,19 +4877,19 @@ msgstr "Tono"
 msgid "Debug Bar"
 msgstr "Barra de depuración"
 
-#: core/admin/admin-notices.php:287
+#: core/admin/admin-notices.php:288
 msgid "Hide Notification"
 msgstr "Ocultar aviso"
 
-#: core/admin/admin-notices.php:281
+#: core/admin/admin-notices.php:282
 msgid "Happy To Help"
 msgstr "Me gustaría ayudar"
 
-#: core/admin/admin-notices.php:278
+#: core/admin/admin-notices.php:279
 msgid "You created over 10 pages with Elementor. Great job! If you can spare a minute, please help us by leaving a five star review on WordPress.org."
 msgstr "Has creado más de 10 páginas con Elementor. ¡Gran trabajo! Si puedes dedicar un minuto, por favor, ayúdanos dejando una valoración de cinco estrellas en WordPress.org."
 
-#: core/admin/admin-notices.php:277
+#: core/admin/admin-notices.php:278
 msgid "Congrats!"
 msgstr "¡Enhorabuena!"
 
@@ -5622,7 +5630,7 @@ msgstr "Lo siento, pero algo fue mal. Haz clic en «Aprender más» y sigue cada
 msgid "The preview could not be loaded"
 msgstr "No se pudo cargar la vista previa"
 
-#: core/admin/admin-notices.php:149 core/admin/admin-notices.php:184
+#: core/admin/admin-notices.php:150 core/admin/admin-notices.php:185
 msgid "Update Notification"
 msgstr "Aviso de actualización"
 
@@ -5745,7 +5753,7 @@ msgid "Sets the default space between widgets (Default: 20px)"
 msgstr "Establece el espacio por defecto entre widgets (por defecto 20px)"
 
 #: includes/rollback.php:165 includes/settings/tools.php:175
-#: includes/settings/tools.php:349 assets/js/admin.js:2309
+#: includes/settings/tools.php:349 assets/js/admin.js:2316
 msgid "Rollback to Previous Version"
 msgstr "Volver a una versión anterior"
 
@@ -6320,7 +6328,7 @@ msgstr "%s está desactivado"
 msgid "Update changes to page"
 msgstr "Actualizar los cambios en la página"
 
-#: core/admin/admin-notices.php:244
+#: core/admin/admin-notices.php:245
 msgid "No thanks"
 msgstr "No, gracias"
 
@@ -6344,7 +6352,7 @@ msgstr "Extender la sección a todo el ancho de la página utilizando JS."
 msgid "Stretch Section"
 msgstr "Extender la sección"
 
-#: core/admin/admin-notices.php:233
+#: core/admin/admin-notices.php:234
 msgid "Learn more."
 msgstr "Aprender más."
 
@@ -6489,7 +6497,7 @@ msgid "If you want to modify the source code of your theme, we recommend using a
 msgstr "Si quieres modificar el código fuente de tu tema, te recomendamos utilizar un <a href=\"%s\">tema hijo</a>."
 
 #: app/modules/import-export/module.php:152
-#: app/modules/import-export/module.php:164 core/admin/admin-notices.php:330
+#: app/modules/import-export/module.php:164 core/admin/admin-notices.php:331
 #: modules/apps/admin-apps-page.php:189 modules/safe-mode/module.php:375
 #: modules/safe-mode/module.php:384
 #: modules/safe-mode/mu-plugin/elementor-safe-mode.php:106
@@ -6702,19 +6710,19 @@ msgstr "Encontré un plugin mejor"
 msgid "I no longer need the plugin"
 msgstr "Ya no necesito el plugin"
 
-#: core/admin/admin-notices.php:145 core/admin/admin-notices.php:153
+#: core/admin/admin-notices.php:146 core/admin/admin-notices.php:154
 #: core/base/db-upgrades-manager.php:97
 msgid "Update Now"
 msgstr "Actualizar ahora"
 
 #. translators: %s: Elementor version.
-#: core/admin/admin-notices.php:140
+#: core/admin/admin-notices.php:141
 msgid "View Elementor version %s details"
 msgstr "Ver detalles de la versión %s de Elementor"
 
 #. translators: 1: Details URL, 2: Accessibility text, 3: Version number, 4:
 #. Update URL, 5: Accessibility text.
-#: core/admin/admin-notices.php:136
+#: core/admin/admin-notices.php:137
 msgid "There is a new version of Elementor Page Builder available. <a href=\"%1$s\" class=\"thickbox open-plugin-details-modal\" aria-label=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s\" class=\"update-link\" aria-label=\"%5$s\">update now</a>."
 msgstr "Existe una nueva versión de Elementor Page Builder disponible. <a href=\"%1$s\" class=\"thickbox open-plugin-details-modal\" aria-label=\"%2$s\">Ver detalles de la versión %3$s</a> o <a href=\"%4$s\" class=\"update-link\" aria-label=\"%5$s\">actualiza ahora</a>."
 
@@ -7893,7 +7901,7 @@ msgstr "Elementos del acordeón"
 msgid "Accordion"
 msgstr "Acordeón"
 
-#: core/admin/admin-notices.php:239
+#: core/admin/admin-notices.php:240
 msgid "Sure! I'd love to help"
 msgstr "¡Claro!, me gustaría ayudar"
 
@@ -7997,7 +8005,7 @@ msgstr "No"
 msgid "Yes"
 msgstr "Sí"
 
-#: core/admin/admin-notices.php:459 includes/controls/gallery.php:123
+#: core/admin/admin-notices.php:448 includes/controls/gallery.php:123
 #: includes/controls/media.php:272
 msgid "Activate Plugin"
 msgstr "Activar plugin"
